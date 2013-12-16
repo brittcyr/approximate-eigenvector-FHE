@@ -8,7 +8,7 @@ using namespace std;
 int main()  {
   setTimersOn();
 
-  // Result should be 1000x1000 with q = 2**30
+  // q = 2^16, n = 16, m = 256, e = 8
   ZZ q;
   q = 1 << 16;
   long n = 16;
